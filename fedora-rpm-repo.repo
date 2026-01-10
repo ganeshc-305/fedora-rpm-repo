@@ -1,0 +1,7 @@
+[fedora-rpm-repo]
+name=Ganesh Personal RPM Repository
+baseurl=https://ganeshc-305.github.io/fedora-rpm-repo/fedora/$releasever/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=https://ganeshc-305.github.io/fedora-rpm-repo/RPM-GPG-KEY-myrepo
+metadata_expire=6h
